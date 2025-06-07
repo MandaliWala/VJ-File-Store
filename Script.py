@@ -4,7 +4,8 @@
 
 
 class script(object):
-    START_TXT = """<b>Hey {},/n/n <blockquote>I am a file store + share bot. I can store private files in specified channel and users can access it by special links.</blockquote></b>"""
+    START_TXT = """<b>Hey {} !!
+ <blockquote>I am a file store + share bot. I can store private files in specified channel and users can access it by special links.</blockquote></b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -31,7 +32,8 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    CLONE_START_TXT = """<b>Hey {},/n/n <blockquote>I am a file store + share bot. I can store private files in specified channel and users can access it by special links.</blockquote></b>"""
+    CLONE_START_TXT = """<b>Hey {} !!
+<blockquote>I am a file store + share bot. I can store private files in specified channel and users can access it by special links.</blockquote></b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -42,17 +44,17 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 ├⋗ Developer : <a href=https://t.me/axsih>λรђเรђ</a>
 ├⋗ Language : <a href=https://www.python.org>Python3</a>
 ├⋗ Library : <a href=https://docs.pyrogram.org>Pyrogram</a>
-├⋗ Main Channel : <a href=https://t.me/becinephile>beCinephile</a></b>
+├⋗ Main Channel : <a href=https://t.me/becinephile>beCinephile</a>
 ├⋗ Build Status : v2.7.1 [ Sᴛᴀʙʟᴇ ]
 ╚═════════════════⦿</b>
 """
 
-    CABOUT_TXT = """<b>Hi I can store files which can be accessed by specified links./n
+    CABOUT_TXT = """<b>
 ╔════════════⦿
-├⋗ Developer : <a href=https://t.me/axsih>λรђเรђ</a>
+├⋗ Developer : <code>λรђเรђ</code>
 ├⋗ Language : <code>Python3</code>
 ├⋗ Library : <a href=https://docs.pyrogram.org>Pyrogram</a>
-├⋗ Main Channel : <a href=https://t.me/becinephile>beCinephile</a></b>
+├⋗ Main Channel : <a href=https://t.me/becinephile>beCinephile</a>
 ├⋗ Build Status : v2.7.1 [ Sᴛᴀʙʟᴇ ]
 ╚═════════════════⦿</b>"""
 
