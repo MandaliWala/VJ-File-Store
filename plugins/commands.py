@@ -62,8 +62,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton(' ᴄᴏᴍᴍᴜɴɪᴛʏ ', url='https://t.me/beCinephile/875')
             ],[
-            InlineKeyboardButton(' ʜᴇʟᴘ ', callback_data='help'),
-            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about')
+            InlineKeyboardButton('• ʜᴇʟᴘ •', callback_data='help'),
+            InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
         ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -334,8 +334,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton(' ᴄᴏᴍᴍᴜɴɪᴛʏ ', url='https://t.me/beCinephile/875')
             ],[
-            InlineKeyboardButton(' ʜᴇʟᴘ ', callback_data='help'),
-            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about')
+            InlineKeyboardButton('• ʜᴇʟᴘ •', callback_data='help'),
+            InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
         ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
