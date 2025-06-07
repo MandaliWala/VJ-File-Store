@@ -60,8 +60,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🢐 ʜᴇʟᴘ 🢒', callback_data='help'),
-            InlineKeyboardButton('🢐 ᴀʙᴏᴜᴛ 🢒', callback_data='about')
+            InlineKeyboardButton(' ᴄᴏᴍᴍᴜɴɪᴛʏ ', url='https://t.me/beCinephile/875')
+            ],[
+            InlineKeyboardButton(' ʜᴇʟᴘ ', callback_data='help'),
+            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about')
         ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -199,7 +201,7 @@ async def start(client, message):
                     await x.delete()
                 except:
                     pass
-            await k.edit_text("<b>Your All Messages is successfully deleted. Kindly generate again..!</b>")
+            await k.edit_text("<b>All your messages are successfully deleted. Kindly generate again..!</b>")
         return
 
 # Don't Remove Credit Tg - @VJ_Botz
@@ -256,7 +258,7 @@ async def start(client, message):
                 await del_msg.delete()
             except:
                 pass
-            await k.edit_text("<b>Your All Messages is successfully deleted. Kindly generate again..!</b>")
+            await k.edit_text("<b>All your messages are successfully deleted. Kindly generate again..!</b>")
         return
     except:
         pass
@@ -330,8 +332,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-             InlineKeyboardButton('🢐 ʜᴇʟᴘ 🢒', callback_data='help'),
-            InlineKeyboardButton('🢐 ᴀʙᴏᴜᴛ 🢒', callback_data='about')
+            InlineKeyboardButton(' ᴄᴏᴍᴍᴜɴɪᴛʏ ', url='https://t.me/beCinephile/875')
+            ],[
+            InlineKeyboardButton(' ʜᴇʟᴘ ', callback_data='help'),
+            InlineKeyboardButton(' ᴀʙᴏᴜᴛ ', callback_data='about')
         ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
