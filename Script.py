@@ -4,7 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b>Hey {}, <i>I am a file + share bot. You can store files which will be accessible by specified links.</i></b>"""
+    START_TXT = """<b>Hey {},/n/n <blockquote>I am a file store + share bot. I can store private files in specified channel and users can access it by special links.</blockquote></b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -31,23 +31,30 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    CLONE_START_TXT = """<b>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ {} 👋, ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ + ᴄᴜꜱᴛᴏᴍ ᴜʀʟ ꜱʜᴏʀᴛɴᴇʀ ꜱᴜᴘᴘᴏʀᴛ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇ</b>"""
+    CLONE_START_TXT = """<b>Hey {},/n/n <blockquote>I am a file store + share bot. I can store private files in specified channel and users can access it by special links.</blockquote></b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    ABOUT_TXT = """<b>Hi I can store files which can be accessed by specified links.
-
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/axsih>λรђเรђ</a>
-‣ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/becinephile>beCinephile</a></b>
+    ABOUT_TXT = """<b>Hi I can store files which can be accessed by specified links./n
+╔════════════⦿
+├⋗ Developer : <a href=https://t.me/axsih>λรђเรђ</a>
+├⋗ Language : <a href=https://www.python.org>Python3</a>
+├⋗ Library : <a href=https://docs.pyrogram.org>Pyrogram</a>
+├⋗ Main Channel : <a href=https://t.me/becinephile>beCinephile</a></b>
+├⋗ Build Status : v2.7.1 [ Sᴛᴀʙʟᴇ ]
+╚═════════════════⦿</b>
 """
 
-    CABOUT_TXT = """<b>Hi I can store files which can be accessed by specified links.
-
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/axsih>λรђเรђ</a>
-‣ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/becinephile>beCinephile</a></b>
-"""
+    CABOUT_TXT = """<b>Hi I can store files which can be accessed by specified links./n
+╔════════════⦿
+├⋗ Developer : <a href=https://t.me/axsih>λรђเรђ</a>
+├⋗ Language : <code>Python3</code>
+├⋗ Library : <a href=https://docs.pyrogram.org>Pyrogram</a>
+├⋗ Main Channel : <a href=https://t.me/becinephile>beCinephile</a></b>
+├⋗ Build Status : v2.7.1 [ Sᴛᴀʙʟᴇ ]
+╚═════════════════⦿</b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -69,24 +76,13 @@ First Send /clone command then follow below steps.
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    HELP_TXT = """<b><u>💢 HOW TO USE THE BOT ☺️</u>
+    HELP_TXT = """<b><blockquote>A File Store Bot working for @beCinephile</blockquote>
 
-🔻 /link - ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴠɪᴅᴇᴏ ᴏʀ ғɪʟᴇ ᴛᴏ ɢᴇᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ
-
-🔻 /batch - sᴇɴᴅ ғɪʀsᴛ ʟɪɴᴋ ᴏғ ғɪʟᴇ sᴛᴏʀᴇ ᴄʜᴀɴɴᴇʟ ᴘᴏsᴛ ᴛʜᴇɴ ʟᴀsᴛ ᴘᴏsᴛ ʟɪɴᴋ ᴀɴᴅ ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ғɪʟᴇ sᴛᴏʀᴇ ᴄʜᴀɴɴᴇʟ.
-ᴇx - /batch https://t.me/vj_botz/25 https://t.me/vj_botz/30
-
-🔻 /clone - ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ɪᴅᴇɴᴛɪᴄᴀʟ ᴄʟᴏɴᴇ ʙᴏᴛ
-
-🔻 /base_site - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇᴛ ᴜʀʟ sʜᴏʀᴛɴᴇʀ ʟɪɴᴋ ᴅᴏᴍᴀɪɴ 
-ᴇx - /base_site ʏᴏᴜʀᴅᴏᴍᴀɪɴ.ᴄᴏᴍ
-
-🔻 /api - sᴇᴛ ʏᴏᴜʀ ᴜʀʟ sʜᴏʀᴛɴᴇʀ ᴀᴄᴄᴏᴜɴᴛ ᴀᴘɪ 
-ᴇx - /api ʙᴀᴏᴡɢᴡᴋʟᴀᴀʙᴀᴋʟ
-
-🔻 /deletecloned - ᴜsᴇ ᴛʜɪs ғᴏʀ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴄʟᴏɴᴇ ʙᴏᴛ 
-
-🔻 /broadcast - ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ (ʙᴏᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</b>"""
+❏ Bot Commands
+├/start : Start the bot
+├/link : Get link for a file
+└/broadcast : Owner Only
+</b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
