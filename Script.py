@@ -43,8 +43,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 ╔════════════⦿
 ├⋗ Developer : <code>λรђเรђ</code>
 ├⋗ Language : <code>Python3</code>
-├⋗ Library : <a href=https://docs.pyrogram.org>Pyrogram</a>
-├⋗ Main Channel : <a href=https://t.me/becinephile>beCinephile</a>
+├⋗ Library : <code>Pyrogram</code>
 ├⋗ Build Status : v2.7.1 [ Sᴛᴀʙʟᴇ ]
 ╚═════════════════⦿</b>"""
 
@@ -52,8 +51,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 ╔════════════⦿
 ├⋗ Developer : <code>λรђเรђ</code>
 ├⋗ Language : <code>Python3</code>
-├⋗ Library : <a href=https://docs.pyrogram.org>Pyrogram</a>
-├⋗ Main Channel : <a href=https://t.me/becinephile>beCinephile</a>
+├⋗ Library : <code>Pyrogram</code>
 ├⋗ Build Status : v2.7.1 [ Sᴛᴀʙʟᴇ ]
 ╚═════════════════⦿</b>"""
 
