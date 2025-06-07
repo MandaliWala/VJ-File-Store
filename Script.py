@@ -39,15 +39,14 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    ABOUT_TXT = """<b>Hi I can store files which can be accessed by specified links./n
+    ABOUT_TXT = """<b>
 ╔════════════⦿
-├⋗ Developer : <a href=https://t.me/axsih>λรђเรђ</a>
-├⋗ Language : <a href=https://www.python.org>Python3</a>
+├⋗ Developer : <code>λรђเรђ</code>
+├⋗ Language : <code>Python3</code>
 ├⋗ Library : <a href=https://docs.pyrogram.org>Pyrogram</a>
 ├⋗ Main Channel : <a href=https://t.me/becinephile>beCinephile</a>
 ├⋗ Build Status : v2.7.1 [ Sᴛᴀʙʟᴇ ]
-╚═════════════════⦿</b>
-"""
+╚═════════════════⦿</b>"""
 
     CABOUT_TXT = """<b>
 ╔════════════⦿
